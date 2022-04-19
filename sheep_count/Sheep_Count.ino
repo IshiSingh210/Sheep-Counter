@@ -17,7 +17,7 @@ void loop()
       c++;
       Serial.println(c);
     }
-    delay(2000);
+    delay(1000);
   }
   if(digitalRead(p2)==1)
   {
@@ -27,6 +27,6 @@ void loop()
       c--;
       Serial.println(c);
     }
-    delay(2000);
+    delay(1000);
   }
 }
